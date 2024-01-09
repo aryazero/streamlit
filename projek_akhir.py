@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np 
+from streamlit_option_menu import option_menu
 
 option = st.sidebar.selectbox(
     'Menu :',
