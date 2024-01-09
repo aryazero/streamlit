@@ -8,7 +8,7 @@ option = st.sidebar.selectbox(
 )
 
 if option == 'Home' or option == '':
-    st.write("""# Halaman Utama""") #menampilkan halaman utama
+    st.write("""# Test""") #menampilkan halaman utama
 elif option == 'Dataframe':
     st.write("""## Dataframe""") #menampilkan judul halaman dataframe
 
