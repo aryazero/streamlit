@@ -26,10 +26,6 @@ elif option == 'Dataframe':
     
     y_test = df['Outcome'].values
 
-    from sklearn.preprocessing import MinMaxScaler
-    X_train = MinMaxScaler().fit_transform(X_train)
-    X_test = MinMaxScaler().fit_transform(X_test)
-
     from keras.models import Sequential
     from keras.layers import Dense
     
